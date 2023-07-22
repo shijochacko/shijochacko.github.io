@@ -1,63 +1,221 @@
-Shijo Chacko                                                                                Gartnerveien 17B
-https://www.linkedin.com/in/shijochacko/                                                    1356 Bekkestua, Oslo
-                                                                                 (+47) 93938065
-                                                                                            shijomeempillil@gmail.com
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>My Name</h1>
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#experience"><i class="fa fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#skills"><i class="fa fa-code"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-KEY SKILLS
-Core Java, Java 17
-Spring Boot, Micro Services, Junit 5
-Middleware System: Apache Kafka
-Database: PostgreSQL, Oracle, SQL Server
-No SQL Database: Azure Cosmos, Apache Cassandra, MongoDB Build Tool: Gradle, Maven
-Performance Testing Tool: Gatling
-ORM Tool: Hibernate
-Versioning Tool: Git, SVN
-Cloud Services: Azure & AWS
-Log Monitoring Tool: Splunk, Datadog
-EXPERIENCE
-16 Years of software industry experience as Java/J2EE application developer
-SUMMARY
-● Currently working in development of microservice architecture using Spring Boot, Java 17, Azure Cosmos, PostgreSQL and Kafka Event Hub.
-● Experience in development micro service architecture of spring boot restful web services
-● Working knowledge in Azure & Aws Cloud platform
-● Experience in NoSQL Databases such as Azure Cosmos & Apache Cassandra.
-● Working knowledge in Front End Technologies such as Angular, Dojo
-● Experience in application development using Agile Methodology.
-● Experience in Oracle DB, Hibernate SQL queries and performance tuning
-● Understanding and conceptualizing the system required by the client and
-designing of application.
-CERTIFICATIONS
-JAVA, Apache Cassandra
+<main>
+    <section id="about">
+        <img src="my-photo.jpg" alt="My Photo">
+        <div>
+            <h2><i class="fa fa-user"></i> About Me</h2>
+            <p>Write a brief description of yourself and your career goals here.</p>
+        </div>
+    </section>
 
-PROJECT
-TITLE PERIOD CLIENT
-DESCRIPTION
-: Parcel Hub
-: 2019 Nov to Present : Posten Norge
-Working on digitalization and restructuring of parcel hub, from legacy system to Kafka event hub based microservice architecture.
-RESPONSIBILITIES
-● Working as Technical Lead, Perform hands-on development through all project phases.
-● Leading the Individuals and Team for better productivity
-● Understanding and collaborating the requirement specifications with the reverse
-engineering team.
-● Designed and Developed application components to adhere the standard of
-Microservice Architecture.
-● Actively involved in Performance tuning of queries in PostgreSQL
-● Developed and conducted performance testing of various rest API’s using gatling.
-● Worked on ETL tool and developed reporting API.
-EXPERIENCE SUMMARY
-TATA CONSULTANCY SERVICES, OSLO - Associate Consultant
-July 2014 - PRESENT
-COMPUTER SCIENCE CORPORATION, CHENNAI - Senior Java Developer
-Jun 2012 - Jun 2014
-IBS SOFTWARE SERVICES KOCHI - Senior Consultant
-Nov 2010 - Apr 2012
-ONSIGHT TECHNOLOGIES PALAKKAD - Java Developer
-Jan 2010 - Nov 2010
-FOCUZ INNOVATIONS KOCHI - Software Developer
-July 2007 - Dec 2009
-EDUCATION
-Master of Computer Applications IGNOU 2003 - 06 B.Sc.MathematicsMGUniversity 1997–2000 Personal Information
-Date of Birth: 31 May 1980
-Nationality: Indian
-Languages: English, Hindi, Malayalam, Norwegian (Beginner) Marital Status: Married
+    <section id="experience">
+        <h2><i class="fa fa-briefcase"></i> Experience</h2>
+        <ul>
+            <li>
+                <h3>Job Title</h3>
+                <p>Company Name, City, State</p>
+                <p>Date range</p>
+                <ul>
+                    <li>Responsibility 1</li>
+                    <li>Responsibility 2</li>
+                    <li>Responsibility 3</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+        <ul>
+            <li>
+                <h3>Degree Name</h3>
+                <p>University Name, City, State</p>
+                <p>Date range</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2><i class="fa fa-code"></i> Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2><i class="fa fa-envelope"></i> Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+</body>
+</html>
+And here is the CSS code which goes into style.css:
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+header h1 {
+font-size: 32px;
+margin: 0;
+}
+
+nav {
+display: inline-block;
+float: right;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-left: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #ccc;
+}
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-top: 30px;
+}
+
+section h2 {
+font-size: 24px;
+margin: 0;
+}
+
+section ul {
+margin: 10px 0;
+}
+
+section li {
+margin-bottom: 10px;
+}
+
+section h3 {
+font-size: 18px;
+margin: 0;
+}
+
+section p {
+margin: 0;
+}
+
+section img {
+display: block;
+float: right;
+margin-left: 20px;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+
+form {
+margin-top: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #444;
+}
+
+.fa {
+display: inline-block;
+font-size: 20px;
+margin-right: 5px;
+}
+
+.fa-user:before {
+content: "\f007";
+}
+
+.fa-briefcase:before {
+content: "\f0b1";
+}
+
+.fa-graduation-cap:before {
+content: "\f19d";
+}
+
+.fa-code:before {
+content: "\f121";
+}
+
+.fa-envelope:before {
+content: "\f0e0";
+}
