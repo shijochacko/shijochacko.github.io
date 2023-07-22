@@ -1,221 +1,120 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Shijo Chacko</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
 </head>
+
 <body>
-<header>
-    <h1>My Name</h1>
-    <nav>
-        <ul>
-            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-            <li><a href="#experience"><i class="fa fa-briefcase"></i> Experience</a></li>
-            <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
-            <li><a href="#skills"><i class="fa fa-code"></i> Skills</a></li>
-            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <section id="about">
-        <img src="my-photo.jpg" alt="My Photo">
-        <div>
-            <h2><i class="fa fa-user"></i> About Me</h2>
-            <p>Write a brief description of yourself and your career goals here.</p>
+<div class="full">
+    <div class="left">
+        <div class="image">
+            <img src=
+                         "https://media.geeksforgeeks.org/wp-content/uploads/20220202083519/gfglogo.png"
+                 alt="gfg-logo"
+                 style="width:100px;height:100px;">
         </div>
-    </section>
-
-    <section id="experience">
-        <h2><i class="fa fa-briefcase"></i> Experience</h2>
-        <ul>
-            <li>
-                <h3>Job Title</h3>
-                <p>Company Name, City, State</p>
-                <p>Date range</p>
-                <ul>
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                    <li>Responsibility 3</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2><i class="fa fa-graduation-cap"></i> Education</h2>
-        <ul>
-            <li>
-                <h3>Degree Name</h3>
-                <p>University Name, City, State</p>
-                <p>Date range</p>
-            </li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2><i class="fa fa-code"></i> Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2><i class="fa fa-envelope"></i> Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-</main>
+        <div class="Contact">
+            <h2>Contact</h2>
+            <p><b>Email id:</b>xyz@gmail.com</p>
+            <p><b>Mobile no :</b>1234567890</p>
+        </div>
+        <div class="Skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><b>Programming Languages :
+                    Python, Java, C++</b></li>
+                <li><b>Frontend : HTML5, CSS3,
+                    JavaScript, React</b></li>
+                <li><b>Backend : Node.js</b></li>
+            </ul>
+        </div>
+        <div class="Language">
+            <h2>Language</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+            </ul>
+        </div>
+        <div class="Hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing cricket</li>
+                <li>Swimming</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="name">
+            <h1>GeeksforGeeks</h1>
+        </div>
+        <div class="title">
+            <p>Web Developer</p>
+        </div>
+        <div class="Summary">
+            <h2>Summary</h2>
+            <p>To secure a challenging position in a
+                reputable organization
+                to expand my learning knowledge and skill
+            </p>
+        </div>
+        <div class="Experience">
+            <h2>Experience</h2>
+            <h3>Abc webdev pvt ltd - Senior Web Developer</h3>
+            <p>January 2022 to Present</p>
+            <ul>
+                <li>Actively engaged in web creative
+                    design and development.</li>
+                <li>Designing project & planning</li>
+            </ul>
+            <h3>Xyz webdev pvt ltd - junior web developer</h3>
+            <p>August 2021 to December 2021</p>
+            <ul>
+                <li>Actively engaged in web creative
+                    design and development.</li>
+                <li>Designing project & planning</li>
+                <li>Working on designing</li>
+            </ul>
+        </div>
+        <div class="Education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>University/college </th>
+                    <th>Passing year </th>
+                    <th>percentage/cgpa</th>
+                </tr>
+                <tr>
+                    <td>xyz</td>
+                    <td>2020</td>
+                    <td>8.9</td>
+                </tr>
+                <tr>
+                    <td>pqr</td>
+                    <td>2018</td>
+                    <td>89%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="project">
+            <ul>
+                <li>
+                    <h2>Project1</h2>
+                    <p>This project is based on html
+                        & used React</p>
+                </li>
+                <li>
+                    <h2>Project2</h2>
+                    <p>This project is based on html
+                        & used React</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
-And here is the CSS code which goes into style.css:
-
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-}
-
-header {
-background-color: #333;
-color: #fff;
-padding: 20px;
-}
-
-header h1 {
-font-size: 32px;
-margin: 0;
-}
-
-nav {
-display: inline-block;
-float: right;
-}
-
-nav ul {
-margin: 0;
-padding: 0;
-}
-
-nav li {
-display: inline-block;
-margin-left: 20px;
-}
-
-nav a {
-color: #fff;
-text-decoration: none;
-}
-
-nav a:hover {
-color: #ccc;
-}
-
-main {
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
-}
-
-section {
-margin-top: 30px;
-}
-
-section h2 {
-font-size: 24px;
-margin: 0;
-}
-
-section ul {
-margin: 10px 0;
-}
-
-section li {
-margin-bottom: 10px;
-}
-
-section h3 {
-font-size: 18px;
-margin: 0;
-}
-
-section p {
-margin: 0;
-}
-
-section img {
-display: block;
-float: right;
-margin-left: 20px;
-border-radius: 50%;
-width: 200px;
-height: 200px;
-}
-
-form {
-margin-top: 20px;
-}
-
-label {
-display: block;
-margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-width: 100%;
-padding: 10px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-}
-
-input[type="submit"] {
-background-color: #333;
-color: #fff;
-border: none;
-padding: 10px 20px;
-border-radius: 4px;
-cursor: pointer;
-}
-
-input[type="submit"]:hover {
-background-color: #444;
-}
-
-.fa {
-display: inline-block;
-font-size: 20px;
-margin-right: 5px;
-}
-
-.fa-user:before {
-content: "\f007";
-}
-
-.fa-briefcase:before {
-content: "\f0b1";
-}
-
-.fa-graduation-cap:before {
-content: "\f19d";
-}
-
-.fa-code:before {
-content: "\f121";
-}
-
-.fa-envelope:before {
-content: "\f0e0";
-}
