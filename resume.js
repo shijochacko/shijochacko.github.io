@@ -1,5 +1,4 @@
 $(window).load(function(){
-  // Page Load Anim
   $('.contOut').animate({
     'opacity':'1'
   },1200);
